@@ -1,0 +1,167 @@
+@media (max-width: 80.625em) {
+  .grid-5--col {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .main-new-1,
+  .main-new-2,
+  .main-new-3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 73em) {
+  .grid-5--col {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .main-new-1,
+  .main-new-2,
+  .main-new-3 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 69.6875em) {
+  .btn-menu {
+    display: block;
+  }
+
+  .header__link-home {
+    transform: translatex(50%);
+  }
+
+  .icon-menu {
+    border: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: none;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .box__img {
+    width: 20%;
+  }
+
+  .grid-5--col {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 2rem;
+    column-gap: 3rem;
+  }
+
+  .main-new-1,
+  .main-new-2,
+  .main-new-3 {
+    width: 100%;
+  }
+
+  .main__container {
+    width: 100%;
+  }
+
+  .header__nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+    background-color: #333;
+    width: 70vh;
+    height: 60vh;
+    justify-content: center;
+    line-height: 3;
+    padding-left: 2rem;
+    transform: translateY(-130%);
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .category-link,
+  .releaseyear-link {
+    width: 50%;
+  }
+
+  .open-nav {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 56.5em) {
+  .grid-5--col {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4rem;
+    column-gap: 2rem;
+  }
+
+  .main-new {
+    width: 100%;
+  }
+
+  .main-new-1,
+  .main-new-2,
+  .main-new-3 {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+  }
+  .category-link,
+  .releaseyear-link {
+    width: 40%;
+    transform: translateX(-20%);
+  }
+
+  .category-link__list,
+  .releaseyear-link__list {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .grid-5--col {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 3rem;
+    column-gap: 3rem;
+  }
+  .header__link-home {
+    transform: translatex(10%);
+  }
+
+  .input-search-open {
+    width: 100%;
+    opacity: 1;
+  }
+
+  .category-link,
+  .releaseyear-link {
+    width: 35%;
+    transform: translateX(-10%);
+  }
+  .category-link__list,
+  .releaseyear-link__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .header {
+    padding: 2rem 0;
+  }
+  .main {
+    padding: 2rem 0;
+  }
+
+  .footer {
+    padding: 2rem 0rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .grid-5--col {
+    grid-template-columns: 1fr;
+  }
+}
